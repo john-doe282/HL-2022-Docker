@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "04216600-3689-4b8c-9ea6-2b063830a4dc",
+		"name": "Docker Task Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "JS Server – Posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/json_server/posts",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"json_server",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JS Server – Comments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/json_server/comments",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"json_server",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JS Server – Profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/json_server/profile",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"json_server",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lite Server – Index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,106 @@
+{
+	"id": "81e4b537-f0df-4437-bdb1-08252c9d64b5",
+	"name": "Docker Task Test",
+	"timestamp": "2022-12-11T19:37:18.955Z",
+	"collection_id": "12598101-04216600-3689-4b8c-9ea6-2b063830a4dc",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "53194bb2-e7c8-4667-b427-35d9ae173b6f",
+			"name": "JS Server – Posts",
+			"url": "http://localhost:8080/json_server/posts",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				29
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "63caa38a-8083-41ba-a6b2-8269055eb25d",
+			"name": "JS Server – Comments",
+			"url": "http://localhost:8080/json_server/comments",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				13
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "88d6145d-ec02-44b6-a768-a104effa5120",
+			"name": "JS Server – Profile",
+			"url": "http://localhost:8080/json_server/profile",
+			"time": 33,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				33
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2d54aa47-05df-430e-b712-5ca97cd9f93c",
+			"name": "Lite Server – Index",
+			"url": "http://localhost:8080/",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				12
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 87,
+	"collection": {
+		"requests": [
+			{
+				"id": "53194bb2-e7c8-4667-b427-35d9ae173b6f",
+				"method": "GET"
+			},
+			{
+				"id": "63caa38a-8083-41ba-a6b2-8269055eb25d",
+				"method": "GET"
+			},
+			{
+				"id": "88d6145d-ec02-44b6-a768-a104effa5120",
+				"method": "GET"
+			},
+			{
+				"id": "2d54aa47-05df-430e-b712-5ca97cd9f93c",
+				"method": "GET"
+			}
+		]
+	}
+}
